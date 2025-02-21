@@ -18,12 +18,12 @@ public class EcpayProductFunctions {
 	private static final String ACTION_URL = "https://payment-stage.ecpay.com.tw/Cashier/AioCheckOut/V5";
 
 	// 綠界付款成功後，要通知後端的路徑 (請自行改成你的 ngrok 或正式域名對應的路徑)
-	private static final String RETURN_URL = "https://061e-1-160-29-99.ngrok-free.app/pecpay/return";
+	private static final String RETURN_URL = "--ngrok--/pecpay/return";
 	private static final String ClientBack_URL = "--yourIP--/shopcart?payment=success";
 
-	private static final String MERCHANT_ID = "2000132";
-	private static final String HASH_KEY = "5294y06JbISpM5x9";
-	private static final String HASH_IV = "v77hoKGq4kWxNNIS";
+	private static final String MERCHANT_ID = "3002607";
+	private static final String HASH_KEY = "pwFHCqoQZGmho4w6";
+	private static final String HASH_IV = "EkRm7iFT261dpevs";
 
 	/**
 	 * 接收 JSON字串(body)，其中應包含:
