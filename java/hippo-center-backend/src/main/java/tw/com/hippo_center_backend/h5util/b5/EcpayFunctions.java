@@ -17,9 +17,9 @@ public class EcpayFunctions {
 	private static final String ACTION_URL = "https://payment-stage.ecpay.com.tw/Cashier/AioCheckOut/V5";
 	private static final String RETURN_URL = " https://061e-1-160-29-99.ngrok-free.app/pages/ecpay/return";
 	private static final String ClientBack_URL = "--yourIP--/event?payment=success";
-	private static final String MERCHANT_ID = "2000132";
-	private static final String HASH_KEY = "5294y06JbISpM5x9";
-	private static final String HASH_IV = "v77hoKGq4kWxNNIS";
+	private static final String MERCHANT_ID = "3002607";
+	private static final String HASH_KEY = "pwFHCqoQZGmho4w6";
+	private static final String HASH_IV = "EkRm7iFT261dpevs";
 
 	public String buildEcpayForm(String body) {
 		JSONObject obj = new JSONObject(body);
