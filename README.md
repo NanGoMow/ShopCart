@@ -1,6 +1,8 @@
 # ShopCart
-For my first project
+小組期末專案
 
+
+負責購物車的前端與後端的部分
 
 後端技術 (Spring Boot)
 Spring Boot 3.x - 構建後端應用
